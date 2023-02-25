@@ -1,6 +1,7 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  /* flex-wrap: wrap; */
+  /* column-count: 1; */
 }
 
 .header {
@@ -8,4 +9,17 @@
   font-size: 4rem;
   font-family: 'Varela Round', sans-serif;
   font-weight: 300;
+}
+
+.btn {
+   display: inline-block;
+        background-color: #249b7d;
+        padding: 1px;
+        width: 600px;
+        color: #ffffff;
+        text-align: center;
+        border: 1px double #cccccc; /* add this line */
+        border-radius: 10px; /* add this line */
+        font-size: 40px; /* add this line */
+        cursor: pointer;
 }

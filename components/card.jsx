@@ -1,9 +1,9 @@
 import './card.css'
-const Card = ({ name, type }) => {
+const Card = ({ grupp, id, namn }) => {
   return (
     <div className='card'>
-      <h1 className='card-header'>{name}</h1>
-      <p>{type}</p>
+      <h1 className='card-header' key={id}>{grupp}</h1>
+      <ul className='card-content'>{namn}</ul >
     </div>
   )
 }
